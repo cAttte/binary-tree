@@ -5,6 +5,7 @@
     "main": "dist/Node.js",
     "scripts": {
         "build": "tsc",
+        "watch": "tsc --watch",
         "postinstall": "npm run build"
     },
     "repository": "cAttte/binary-tree",
