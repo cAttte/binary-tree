@@ -33,11 +33,9 @@ clone this node! useful because all of the other methods mutate their nodes.
 ### **_invert(): this_**
 
 &ZeroWidthSpace;
-&ZeroWidthSpace;
 
 **_i̮̪̙̎̆̀ ͖̫̞͈̥̲̠̅ǹ̮̗͓͇̞̉̏ ̼̹̟v̮̲͕̪̰͎̍̓ͦ̽̎̒̆ ͇̻ͬe ̖͙̆͑r̗̗͎ͤͧ͌͛̚ ͖͋ͦ̇ͮ͐ẗ̫̻͎ͬ̄ ͉̰̞̠͎̬̌̈́̌̈́́̎̌ͅ ͕̮͆̈͗ͫ̆̾̌ ͔̼̠̱̋̽ͤt̫͔̰̫̜̹̀̀͗̚ ̩̲̱͕̘̮̪́ͥ̚h̝͓͇̺̩ͯͮ̈͌ͧ̿ ̳̟͇̙̣̺̿̄ͯ͛͆ẻ̖̜͎ ͕̥͍̦̖ ͔̩͔̝̺̎ ̤̋̿ͬ̈́̔b͓͖̜ ̇i͎̟̳͈̜̿ͦ̈̓̍ ̦̞̫͇ͭ͂̿̎̃n̼̭̑ͦ ̯͕̤͎͂ͯͮͧ̅a͚͎͍̦͕͉̯ͭ͗ͩ͐ͬ̄ ̹̯͙̉ͤr̬̠͓̬ͥ̍ͯ̊ͥ ̯̦̍͑̉̽ͨͅy͉̻͚͙̯̏̍͂̓̌ ̲̯͉͙̈ͧ͆̅͊ ̘̲̥̜̱ͩ ̂͂ț̦̥̩̱͗͌͑̍ ̙̮̦r̠̳̮̉̇̇͌ͦ̔ͬ ̳ͥͨ̇ͩ̊̚ȇ̲̻̫͚̊̽͋ ̭̀̄̌é̫̩̗̭͉̜͈͛͂ ̺̋̑͂̏.̘̹̬̖͙͍̿ͦ̈́_** &ZeroWidthSpace; &ZeroWidthSpace; _like a boss!_
 
-&ZeroWidthSpace;
 &ZeroWidthSpace;
 
 ### equals(that: Node): boolean
