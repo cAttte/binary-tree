@@ -3,7 +3,7 @@ export = class Node {
     left: Node
     right: Node
 
-    constructor(value: number, left: Node, right: Node) {
+    constructor(value: number, left: Node = null, right: Node = null) {
         this.value = value
         this.left = left
         this.right = right
