@@ -27,4 +27,11 @@ export = class Node {
         const equals = (a: Node, b: Node) => (a && b && a.equals(b)) || (!a && !b)
         return equals(this.left, that.left) && equals(this.right, that.right)
     }
+
+    find(value: number): Node {
+        if (value === this.value) return this
+        else if (value < this.value && this.left) return this.left.find(value)
+        else if (value > this.value && this.right) return this.right.find(value)
+        return null
+    }
 }
