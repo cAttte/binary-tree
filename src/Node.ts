@@ -34,4 +34,13 @@ export = class Node {
         else if (value > this.value && this.right) return this.right.find(value)
         return null
     }
+
+    insert(value: number): this {
+        const node = new Node(value)
+        const insert = (a: Node, b: Node) => (b ? b.insert(a.value) : a)
+
+        if (value < this.value) this.left = insert(node, this.left)
+        else if (value > this.value) this.right = insert(node, this.right)
+        return this
+    }
 }
