@@ -22,10 +22,9 @@ export = class Node {
         return this
     }
 
-    equals(node: Node): boolean {
-        let equals: boolean = true
-        if (this.left && node.left) equals = equals && node.left.equals(this.left)
-        if (this.right && node.right) equals = equals && node.right.equals(this.right)
-        return equals
+    equals(that: Node): boolean {
+        if (!that) return false
+        const equals = (a: Node, b: Node) => (a && b && a.equals(b)) || (!a && !b)
+        return equals(this.left, that.left) && equals(this.right, that.right)
     }
 }
