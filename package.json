@@ -2,7 +2,7 @@
     "name": "binary-tree",
     "version": "0.0.0",
     "description": "inverting binary trees like a boss 😎",
-    "main": "dist/index.js",
+    "main": "dist/Node.js",
     "scripts": {
         "build": "tsc"
     },
