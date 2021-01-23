@@ -3,7 +3,9 @@
     "version": "0.0.0",
     "description": "inverting binary trees like a boss 😎",
     "main": "dist/index.js",
-    "scripts": {},
+    "scripts": {
+        "build": "tsc"
+    },
     "repository": "cAttte/binary-tree",
     "keywords": [
         "binary",
