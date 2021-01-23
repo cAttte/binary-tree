@@ -9,6 +9,12 @@ export = class Node {
         this.right = right
     }
 
+    clone(): Node {
+        const left = this.left ? this.left.clone() : null
+        const right = this.right ? this.right.clone() : null
+        return new Node(this.value, left, right)
+    }
+
     invert(): this {
         const { left, right } = this
         this.left = right ? right.invert() : null
