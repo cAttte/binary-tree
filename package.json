@@ -4,7 +4,8 @@
     "description": "inverting binary trees like a boss 😎",
     "main": "dist/Node.js",
     "scripts": {
-        "build": "tsc"
+        "build": "tsc",
+        "postinstall": "npm run build"
     },
     "repository": "cAttte/binary-tree",
     "keywords": [
