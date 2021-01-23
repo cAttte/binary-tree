@@ -12,5 +12,8 @@
         "binary-tree"
     ],
     "author": "catte_",
-    "license": "MIT"
+    "license": "MIT",
+    "devDependencies": {
+        "typescript": "^4.1.3"
+    }
 }
