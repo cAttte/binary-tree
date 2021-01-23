@@ -21,4 +21,11 @@ export = class Node {
         this.right = left ? left.invert() : null
         return this
     }
+
+    equals(node: Node): boolean {
+        let equals: boolean = true
+        if (this.left && node.left) equals = equals && node.left.equals(this.left)
+        if (this.right && node.right) equals = equals && node.right.equals(this.right)
+        return equals
+    }
 }
