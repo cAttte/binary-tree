@@ -1,3 +1,3 @@
-export class Node {
+export = class Node {
     // what
 }
